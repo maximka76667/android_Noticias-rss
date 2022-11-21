@@ -23,22 +23,15 @@ public class MainActivity extends AppCompatActivity implements iNoticiaRSS {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        // Se lanza la tarea que descarga, generara la lista de noticias y al finalizar entregara al metodo onRecibeNoticiasRSS
-        (new DescargaNoticiasRSS(this, this)).execute("http://feeds.feedburner.com/Muyinteresantees?format=xml", NoticiaRSS.RSS_MUY_INTERESANTE);
-
-
+        descargarNoticias();
     }
 
     @Override
     public void onRecibeNoticiasRSS(ArrayList<NoticiaRSS> listaNoticias) {
-
-        /* Aqui se recibe la lista de noticias descargada por la tarea  DescargaNoticiasRSS
-         * Se debe crear el objeto del adaptador personalizado y asignarselo al ListView
-         */
-        ListView listView = this.findViewById(R.id.listView);
         NoticiasAdapter adapter = new NoticiasAdapter(MainActivity.this, R.layout.noticia, listaNoticias);
-        listView.setAdapter(adapter);
+
+        // Obtener ListView principal y establecer adaptador
+        ((ListView) this.findViewById(R.id.listView)).setAdapter(adapter);
 
         Log.i("lista de noticias", listaNoticias.toString());
     }
@@ -55,12 +48,16 @@ public class MainActivity extends AppCompatActivity implements iNoticiaRSS {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (item.getItemId() == R.id.menu_actualizar) { // Opcion de menu Actualizar
-            // Se lanza la tarea que descargara, generara la lista de noticias y al finalizar entregara al ejecutar el metodo onRecibeNoticiasRSS
-            (new DescargaNoticiasRSS(this, this)).execute("http://feeds.feedburner.com/Muyinteresantees?format=xml", NoticiaRSS.RSS_MUY_INTERESANTE);
+            descargarNoticias();
         }
 
         return super.onOptionsItemSelected(item);
     }
 
+    // Se lanza la tarea que descarga, generara la lista de noticias
+    // y al finalizar entregara al metodo onRecibeNoticiasRSS
+    public void descargarNoticias() {
+        new DescargaNoticiasRSS(this, this).execute("http://feeds.feedburner.com/Muyinteresantees?format=xml", NoticiaRSS.RSS_MUY_INTERESANTE);
+    }
 
 }

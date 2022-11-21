@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Proyecto_Inicial_Practica_Visualizacion_RSS.iml" filepath="$PROJECT_DIR$/.idea/modules/Proyecto_Inicial_Practica_Visualizacion_RSS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Proyecto_Inicial_Practica_Visualizacion_RSS.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android_Noticias-rss.iml" filepath="$PROJECT_DIR$/.idea/modules/android_Noticias-rss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android_Noticias-rss.app.unitTest.iml" />
     </modules>
   </component>
 </project>
