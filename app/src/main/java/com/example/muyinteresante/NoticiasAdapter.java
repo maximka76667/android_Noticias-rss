@@ -31,20 +31,20 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaRSS> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View view = activity.getLayoutInflater().inflate(layoutId, null);
+        if (convertView == null) {
+            convertView = activity.getLayoutInflater().inflate(layoutId, null);
+        }
+
         NoticiaRSS noticia = noticias.get(position);
 
-        TextView textView_tutilo = view.findViewById(R.id.titulo);
-        textView_tutilo.setText(noticia.getTitulo());
+        TextView textView_titulo = setTextByViewId(convertView, R.id.titulo, noticia.getTitulo());
+        TextView textView_fecha = setTextByViewId(convertView, R.id.fecha, noticia.getFechaComoStringFormateado());
+        TextView textView_descripcion = setTextByViewId(convertView, R.id.descripcion, noticia.getDescripcion());
 
-        TextView textView_titulo = setTextByViewId(view, R.id.titulo, noticia.getTitulo());
-        TextView textView_fecha = setTextByViewId(view, R.id.fecha, noticia.getFechaComoStringFormateado());
-        TextView textView_descripcion = setTextByViewId(view, R.id.descripcion, noticia.getDescripcion());
-
-        AsignaImagenDeURL tarea = new AsignaImagenDeURL(view.findViewById(R.id.imagen), activity);
+        AsignaImagenDeURL tarea = new AsignaImagenDeURL(convertView.findViewById(R.id.imagen), activity);
         tarea.execute(noticia.getUrlImagen());
 
-        return view;
+        return convertView;
     }
 
     public TextView setTextByViewId(View view, int resource, String text) {

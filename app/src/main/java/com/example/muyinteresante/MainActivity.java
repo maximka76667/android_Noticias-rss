@@ -37,9 +37,7 @@ public class MainActivity extends AppCompatActivity implements iNoticiaRSS {
          * Se debe crear el objeto del adaptador personalizado y asignarselo al ListView
          */
         ListView listView = this.findViewById(R.id.listView);
-
         NoticiasAdapter adapter = new NoticiasAdapter(MainActivity.this, R.layout.noticia, listaNoticias);
-
         listView.setAdapter(adapter);
 
         Log.i("lista de noticias", listaNoticias.toString());
