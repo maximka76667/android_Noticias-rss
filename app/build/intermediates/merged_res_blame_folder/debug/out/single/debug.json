@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\menu_main.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\menu\\main.xml"
+    },
+    {
+        "merged": "com.example.muyinteresante.app-merged_res-8:/layout_noticia.xml.flat",
+        "source": "com.example.muyinteresante.app-main-10:/layout/noticia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\layout_noticia.xml.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\layout\\noticia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\drawable_audi.webp.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\drawable\\audi.webp"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-merged_res-8:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\7.5.1\\com.example.muyinteresante.app-main-10:\\drawable-mdpi\\ic_launcher.png"
+    }
+]
