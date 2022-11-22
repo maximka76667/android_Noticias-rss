@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\ed5a5baf567bfd24e75f7c298a233834\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\9557741b73ed572ea2321c46f2f8d4df\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\601c378a8da70ef534eb9ed676aab92a\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -30,33 +30,33 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Usuario\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\abef8caabd9c552de51293df45ac3c93\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\df0f92e0fb4b6a30dcb0ffd2c2011e54\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\a6cb7dea711c2196cb0c4a9d38c73023\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:3:2-38
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:3:2-38
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:5:2-27
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:4:2-25
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:8:2-77
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:8:2-77
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:8:19-75
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:8:19-75
 application
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:10:2-28:16
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:10:2-28:16
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\dd5bd567a95c0d274cf2e9e53560b601\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\dd5bd567a95c0d274cf2e9e53560b601\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\798dafd29519e5cd3b48b1286035646f\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
@@ -64,39 +64,39 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Usuario\.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\dd5bd567a95c0d274cf2e9e53560b601\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:14:3-35
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:14:3-35
 	android:icon
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:13:3-39
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:13:3-39
 	android:allowBackup
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:12:3-29
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:12:3-29
 	android:theme
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:15:3-34
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:15:3-34
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:11:3-38
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:11:3-38
 activity#com.example.muyinteresante.MainActivity
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:16:3-27:14
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:16:3-27:14
 	android:screenOrientation
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:20:4-40
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:20:4-40
 	android:label
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:18:4-36
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:18:4-36
 	android:exported
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:19:4-27
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:19:4-27
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:17:4-58
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:17:4-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:22:4-26:20
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:22:4-26:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:23:5-57
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:23:5-57
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:23:13-54
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:23:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:25:5-65
+ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:25:5-65
 	android:name
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml:25:15-62
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml:25:15-62
 uses-sdk
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\ed5a5baf567bfd24e75f7c298a233834\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\ed5a5baf567bfd24e75f7c298a233834\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\9557741b73ed572ea2321c46f2f8d4df\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
@@ -149,13 +149,13 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Usuario\.gradle\caches\tr
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Usuario\.gradle\caches\transforms-3\df0f92e0fb4b6a30dcb0ffd2c2011e54\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\a6cb7dea711c2196cb0c4a9d38c73023\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Usuario\.gradle\caches\transforms-3\a6cb7dea711c2196cb0c4a9d38c73023\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Proyecto Inicial Practica Visualizacion RSS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidStudioProjects\Noticias-rss\app\src\main\AndroidManifest.xml

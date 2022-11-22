@@ -1,11 +1,15 @@
 package com.example.muyinteresante;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.example.muyinteresanteNoTocar.DescargaNoticiasRSS;
@@ -30,8 +34,20 @@ public class MainActivity extends AppCompatActivity implements iNoticiaRSS {
     public void onRecibeNoticiasRSS(ArrayList<NoticiaRSS> listaNoticias) {
         NoticiasAdapter adapter = new NoticiasAdapter(MainActivity.this, R.layout.noticia, listaNoticias);
 
-        // Obtener ListView principal y establecer adaptador
-        ((ListView) this.findViewById(R.id.listView)).setAdapter(adapter);
+        // Obtener ListView principal
+        ListView listView_noticias = this.findViewById(R.id.listView);
+
+        // Asignar onItemClickListener
+        listView_noticias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Uri uri = Uri.parse(listaNoticias.get(position).getEnlace());
+                startActivity(new Intent(Intent.ACTION_VIEW, uri));
+            }
+        });
+
+        // Asignar adaptador
+        listView_noticias.setAdapter(adapter);
 
         Log.i("lista de noticias", listaNoticias.toString());
     }

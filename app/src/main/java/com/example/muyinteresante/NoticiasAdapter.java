@@ -1,5 +1,6 @@
 package com.example.muyinteresante;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -28,18 +29,31 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaRSS> {
         this.noticias = (ArrayList<NoticiaRSS>) objects;
     }
 
+    @SuppressLint("NewApi")
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        References refs;
+
         if (convertView == null) {
             convertView = activity.getLayoutInflater().inflate(layoutId, null);
+
+            refs = new References();
+
+            refs.textView_titulo = convertView.findViewById(R.id.titulo);
+            refs.textView_fecha = convertView.findViewById(R.id.fecha);
+            refs.textView_descripcion = convertView.findViewById(R.id.descripcion);
+
+            convertView.setTag(refs);
+        } else {
+            refs = (References) convertView.getTag();
         }
 
         NoticiaRSS noticia = noticias.get(position);
 
-        TextView textView_titulo = setTextByViewId(convertView, R.id.titulo, noticia.getTitulo());
-        TextView textView_fecha = setTextByViewId(convertView, R.id.fecha, noticia.getFechaComoStringFormateado());
-        TextView textView_descripcion = setTextByViewId(convertView, R.id.descripcion, noticia.getDescripcion());
+        refs.textView_titulo.setText(noticia.getTitulo());
+        refs.textView_fecha.setText(noticia.getFechaComoStringFormateado());
+        refs.textView_descripcion.setText(noticia.getDescripcion());
 
         AsignaImagenDeURL tarea = new AsignaImagenDeURL(convertView.findViewById(R.id.imagen), activity);
         tarea.execute(noticia.getUrlImagen());
@@ -47,9 +61,9 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaRSS> {
         return convertView;
     }
 
-    public TextView setTextByViewId(View view, int resource, String text) {
-        TextView textView = view.findViewById(resource);
-        textView.setText(text);
-        return textView;
+    static class References {
+        TextView textView_titulo;
+        TextView textView_fecha;
+        TextView textView_descripcion;
     }
 }
