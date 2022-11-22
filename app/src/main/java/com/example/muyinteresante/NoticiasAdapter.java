@@ -47,6 +47,7 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaRSS> {
             convertView.setTag(refs);
         } else {
             refs = (References) convertView.getTag();
+            refs.tarea.cancel(true);
         }
 
         NoticiaRSS noticia = noticias.get(position);
@@ -55,8 +56,8 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaRSS> {
         refs.textView_fecha.setText(noticia.getFechaComoStringFormateado());
         refs.textView_descripcion.setText(noticia.getDescripcion());
 
-        AsignaImagenDeURL tarea = new AsignaImagenDeURL(convertView.findViewById(R.id.imagen), activity);
-        tarea.execute(noticia.getUrlImagen());
+        refs.tarea = new AsignaImagenDeURL(convertView.findViewById(R.id.imagen), activity);
+        refs.tarea.execute(noticia.getUrlImagen());
 
         return convertView;
     }
@@ -65,5 +66,6 @@ public class NoticiasAdapter extends ArrayAdapter<NoticiaRSS> {
         TextView textView_titulo;
         TextView textView_fecha;
         TextView textView_descripcion;
+        AsignaImagenDeURL tarea;
     }
 }
